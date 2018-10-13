@@ -1,0 +1,36 @@
+.notification{
+	position: fixed;
+    float: right;
+    z-index: 100;
+    right: 1.5%;
+    top: 15%;
+    width: 25%;    
+    opacity: 0.9;    
+    color: white; 
+}
+.notification:hover{
+	cursor: pointer;
+}
+
+.notification-success{
+	background-color: #51A351;
+    border-color: #51A351;
+	box-shadow: 0px 0px 22px #155f3f;
+}	
+.notification-success:hover{
+	background: #358c35;
+	opacity: 1;
+    box-shadow: 0px 1px 10px #000000;
+}
+
+.notification-error{
+    background: #ff2f2f;
+    border-color: #ff2f2f;
+    box-shadow: 0px 0px 22px #de0000;
+}   
+.notification-error:hover{
+    background: #b71d1d;
+    opacity: 1;
+    border-color: #b71d1d;
+    box-shadow: 0px 1px 10px #000000;
+}
